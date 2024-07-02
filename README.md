@@ -1,7 +1,8 @@
 Will be written ;) 
 
+
 This folder will be used as a mqtt broker for all the applications. To use it you need to 
-1. create the docker network
+1. create the docker network --> docker network -d bridge mqtt_network
 2. launch the container
 3. connect the other applications to ensure they can correctly communicate
 
