@@ -6,6 +6,10 @@ This project has been developed for multiple reasons:
 
 Let's get into it, then!
 
+## Prerequisites
+- Docker Desktop (ADD LINK TO THE INTERNAL DOCUMENTATION ABOUT IT)
+- It would be beneficial to associate this repository to any other application, but it's not needed
+
 ## Docker Networking
 
 As the scope of this application is communication, a good approach is to have a little knowledge of docker networking. To have more information, refer to the documentation that you will find linked along the way. 
