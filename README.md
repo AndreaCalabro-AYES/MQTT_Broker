@@ -22,7 +22,7 @@ Why not use the default's one? Here the [full answer](https://docs.docker.com/ne
 * Freedom to connect, and freedom to deattach 
 * Ease of connection, as the containers on a custom bridge network can resolve (find) each other by name/alias, and not IP address
 
-**CREATE STEP**
+**CREATE NETWORK**
 You will need to create your own docker bridge network! Just type the following command in your terminal
 ```
 docker network create -d bridge mqtt_network
