@@ -40,6 +40,7 @@ services:
     networks:
       - mqtt_network
     working_dir: /Handler
+    # command: python3 Inner_temperature_node.py
     command: python3 handler.py
 
 networks:

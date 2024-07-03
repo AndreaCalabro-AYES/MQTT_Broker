@@ -1,0 +1,643 @@
+1720023635: mosquitto version 2.0.18 starting
+1720023635: Config loaded from /mosquitto/config/mosquitto.conf.
+1720023635: Opening ipv4 listen socket on port 1883.
+1720023635: Opening ipv6 listen socket on port 1883.
+1720023635: mosquitto version 2.0.18 running
+1720023636: New connection from 172.21.0.3:41975 on port 1883.
+1720023636: New client connected from 172.21.0.3:41975 as Handler (p2, c1, k60).
+1720023636: No will message specified.
+1720023636: Sending CONNACK to Handler (0, 0)
+1720023636: Received PUBLISH from Handler (d0, q0, r0, m0, 'greetings/face_removed', ... (20 bytes))
+1720023636: Received SUBSCRIBE from Handler
+1720023636: 	temperature/internal (QoS 0)
+1720023636: Handler 0 temperature/internal
+1720023636: Sending SUBACK to Handler
+1720023636: Received SUBSCRIBE from Handler
+1720023636: 	general (QoS 0)
+1720023636: Handler 0 general
+1720023636: Sending SUBACK to Handler
+1720023636: Received SUBSCRIBE from Handler
+1720023636: 	greetings/face_added (QoS 0)
+1720023636: Handler 0 greetings/face_added
+1720023636: Sending SUBACK to Handler
+1720023636: Received SUBSCRIBE from Handler
+1720023636: 	greetings/face_removed (QoS 0)
+1720023636: Handler 0 greetings/face_removed
+1720023636: Sending SUBACK to Handler
+1720023636: Client Handler closed its connection.
+1720023679: mosquitto version 2.0.18 terminating
+1720023679: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1720023683: mosquitto version 2.0.18 starting
+1720023683: Config loaded from /mosquitto/config/mosquitto.conf.
+1720023683: Opening ipv4 listen socket on port 1883.
+1720023683: Opening ipv6 listen socket on port 1883.
+1720023683: mosquitto version 2.0.18 running
+1720023683: New connection from 172.21.0.3:42965 on port 1883.
+1720023683: New client connected from 172.21.0.3:42965 as Handler (p2, c1, k60).
+1720023683: No will message specified.
+1720023683: Sending CONNACK to Handler (0, 0)
+1720023683: Received PUBLISH from Handler (d0, q0, r0, m0, 'greetings/face_removed', ... (20 bytes))
+1720023683: Received SUBSCRIBE from Handler
+1720023683: 	temperature/internal (QoS 0)
+1720023683: Handler 0 temperature/internal
+1720023683: Sending SUBACK to Handler
+1720023683: Received SUBSCRIBE from Handler
+1720023683: 	general (QoS 0)
+1720023683: Handler 0 general
+1720023683: Sending SUBACK to Handler
+1720023683: Received SUBSCRIBE from Handler
+1720023683: 	greetings/face_added (QoS 0)
+1720023683: Handler 0 greetings/face_added
+1720023683: Sending SUBACK to Handler
+1720023683: Received SUBSCRIBE from Handler
+1720023683: 	greetings/face_removed (QoS 0)
+1720023683: Handler 0 greetings/face_removed
+1720023683: Sending SUBACK to Handler
+1720023683: Client Handler closed its connection.
+1720023717: mosquitto version 2.0.18 terminating
+1720023717: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1720023719: mosquitto version 2.0.18 starting
+1720023719: Config loaded from /mosquitto/config/mosquitto.conf.
+1720023719: Opening ipv4 listen socket on port 1883.
+1720023719: Opening ipv6 listen socket on port 1883.
+1720023719: mosquitto version 2.0.18 running
+1720023720: New connection from 172.21.0.3:37287 on port 1883.
+1720023720: New client connected from 172.21.0.3:37287 as Handler (p2, c1, k60).
+1720023720: No will message specified.
+1720023720: Sending CONNACK to Handler (0, 0)
+1720023720: Received PUBLISH from Handler (d0, q0, r0, m0, 'greetings/face_added', ... (20 bytes))
+1720023720: Received PUBLISH from Handler (d0, q0, r0, m0, 'greetings/face_removed', ... (38 bytes))
+1720023720: Received SUBSCRIBE from Handler
+1720023720: 	temperature/internal (QoS 0)
+1720023720: Handler 0 temperature/internal
+1720023720: Sending SUBACK to Handler
+1720023720: Received SUBSCRIBE from Handler
+1720023720: 	general (QoS 0)
+1720023720: Handler 0 general
+1720023720: Sending SUBACK to Handler
+1720023720: Received SUBSCRIBE from Handler
+1720023720: 	greetings/face_added (QoS 0)
+1720023720: Handler 0 greetings/face_added
+1720023720: Sending SUBACK to Handler
+1720023720: Received SUBSCRIBE from Handler
+1720023720: 	greetings/face_removed (QoS 0)
+1720023720: Handler 0 greetings/face_removed
+1720023720: Sending SUBACK to Handler
+1720023735: Received PUBLISH from Handler (d0, q0, r0, m0, 'greetings/face_added', ... (20 bytes))
+1720023735: Sending PUBLISH to Handler (d0, q0, r0, m0, 'greetings/face_added', ... (20 bytes))
+1720023750: Received PUBLISH from Handler (d0, q0, r0, m0, 'greetings/face_added', ... (20 bytes))
+1720023750: Sending PUBLISH to Handler (d0, q0, r0, m0, 'greetings/face_added', ... (20 bytes))
+1720023756: Received PUBLISH from Handler (d0, q0, r0, m0, 'greetings/face_removed', ... (38 bytes))
+1720023756: Sending PUBLISH to Handler (d0, q0, r0, m0, 'greetings/face_removed', ... (38 bytes))
+1720023761: Client Handler closed its connection.
+1720023762: mosquitto version 2.0.18 terminating
+1720023762: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1720023915: mosquitto version 2.0.18 starting
+1720023915: Config loaded from /mosquitto/config/mosquitto.conf.
+1720023915: Opening ipv4 listen socket on port 1883.
+1720023915: Opening ipv6 listen socket on port 1883.
+1720023915: mosquitto version 2.0.18 running
+1720023915: New connection from 172.21.0.3:49757 on port 1883.
+1720023915: New client connected from 172.21.0.3:49757 as Handler (p2, c1, k60).
+1720023915: No will message specified.
+1720023915: Sending CONNACK to Handler (0, 0)
+1720023915: Received PUBLISH from Handler (d0, q0, r0, m0, 'greetings/face_added', ... (20 bytes))
+1720023915: Received PUBLISH from Handler (d0, q0, r0, m0, 'greetings/face_removed', ... (38 bytes))
+1720023915: Received SUBSCRIBE from Handler
+1720023915: 	temperature/internal (QoS 0)
+1720023915: Handler 0 temperature/internal
+1720023915: Sending SUBACK to Handler
+1720023915: Received SUBSCRIBE from Handler
+1720023915: 	general (QoS 0)
+1720023915: Handler 0 general
+1720023915: Sending SUBACK to Handler
+1720023915: Received SUBSCRIBE from Handler
+1720023915: 	greetings/face_added (QoS 0)
+1720023915: Handler 0 greetings/face_added
+1720023915: Sending SUBACK to Handler
+1720023915: Received SUBSCRIBE from Handler
+1720023915: 	greetings/face_removed (QoS 0)
+1720023915: Handler 0 greetings/face_removed
+1720023915: Sending SUBACK to Handler
+1720023930: Received PUBLISH from Handler (d0, q0, r0, m0, 'greetings/face_added', ... (20 bytes))
+1720023930: Sending PUBLISH to Handler (d0, q0, r0, m0, 'greetings/face_added', ... (20 bytes))
+1720023945: Received PUBLISH from Handler (d0, q0, r0, m0, 'greetings/face_added', ... (20 bytes))
+1720023945: Sending PUBLISH to Handler (d0, q0, r0, m0, 'greetings/face_added', ... (20 bytes))
+1720023951: Received PUBLISH from Handler (d0, q0, r0, m0, 'greetings/face_removed', ... (38 bytes))
+1720023951: Sending PUBLISH to Handler (d0, q0, r0, m0, 'greetings/face_removed', ... (38 bytes))
+1720023960: Received PUBLISH from Handler (d0, q0, r0, m0, 'greetings/face_added', ... (20 bytes))
+1720023960: Sending PUBLISH to Handler (d0, q0, r0, m0, 'greetings/face_added', ... (20 bytes))
+1720023975: New connection from 127.0.0.1:35576 on port 1883.
+1720023975: New client connected from 127.0.0.1:35576 as auto-ECE2F44A-11DE-7A7F-655A-58ABFDCB5A09 (p2, c1, k60).
+1720023975: No will message specified.
+1720023975: Sending CONNACK to auto-ECE2F44A-11DE-7A7F-655A-58ABFDCB5A09 (0, 0)
+1720023975: Received SUBSCRIBE from auto-ECE2F44A-11DE-7A7F-655A-58ABFDCB5A09
+1720023975: 	/broker/uptime (QoS 0)
+1720023975: auto-ECE2F44A-11DE-7A7F-655A-58ABFDCB5A09 0 /broker/uptime
+1720023975: Sending SUBACK to auto-ECE2F44A-11DE-7A7F-655A-58ABFDCB5A09
+1720023975: Received PUBLISH from Handler (d0, q0, r0, m0, 'greetings/face_added', ... (20 bytes))
+1720023975: Sending PUBLISH to Handler (d0, q0, r0, m0, 'greetings/face_added', ... (20 bytes))
+1720023975: Received PINGREQ from Handler
+1720023975: Sending PINGRESP to Handler
+1720023978: Client Handler closed its connection.
+1720023978: mosquitto version 2.0.18 terminating
+1720023978: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1720023984: mosquitto version 2.0.18 starting
+1720023984: Config loaded from /mosquitto/config/mosquitto.conf.
+1720023984: Opening ipv4 listen socket on port 1883.
+1720023984: Opening ipv6 listen socket on port 1883.
+1720023984: mosquitto version 2.0.18 running
+1720023998: mosquitto version 2.0.18 terminating
+1720023998: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1720024000: mosquitto version 2.0.18 starting
+1720024000: Config loaded from /mosquitto/config/mosquitto.conf.
+1720024000: Opening ipv4 listen socket on port 1883.
+1720024000: Opening ipv6 listen socket on port 1883.
+1720024000: mosquitto version 2.0.18 running
+1720024020: mosquitto version 2.0.18 terminating
+1720024020: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1720024022: mosquitto version 2.0.18 starting
+1720024022: Config loaded from /mosquitto/config/mosquitto.conf.
+1720024022: Opening ipv4 listen socket on port 1883.
+1720024022: Opening ipv6 listen socket on port 1883.
+1720024022: mosquitto version 2.0.18 running
+1720024023: New connection from 172.21.0.3:45051 on port 1883.
+1720024023: Client <unknown> closed its connection.
+1720024082: New connection from 127.0.0.1:35312 on port 1883.
+1720024082: New client connected from 127.0.0.1:35312 as auto-61BA9A2A-850D-1E3A-84BA-193632BA491D (p2, c1, k60).
+1720024082: No will message specified.
+1720024082: Sending CONNACK to auto-61BA9A2A-850D-1E3A-84BA-193632BA491D (0, 0)
+1720024082: Received SUBSCRIBE from auto-61BA9A2A-850D-1E3A-84BA-193632BA491D
+1720024082: 	/broker/uptime (QoS 0)
+1720024082: auto-61BA9A2A-850D-1E3A-84BA-193632BA491D 0 /broker/uptime
+1720024082: Sending SUBACK to auto-61BA9A2A-850D-1E3A-84BA-193632BA491D
+1720024092: Client auto-61BA9A2A-850D-1E3A-84BA-193632BA491D closed its connection.
+1720024119: mosquitto version 2.0.18 terminating
+1720024119: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1720024122: mosquitto version 2.0.18 starting
+1720024122: Config loaded from /mosquitto/config/mosquitto.conf.
+1720024122: Opening ipv4 listen socket on port 1883.
+1720024122: Opening ipv6 listen socket on port 1883.
+1720024122: mosquitto version 2.0.18 running
+1720024123: New connection from 172.21.0.3:38115 on port 1883.
+1720024123: Client <unknown> closed its connection.
+1720024182: New connection from 127.0.0.1:57860 on port 1883.
+1720024182: New client connected from 127.0.0.1:57860 as auto-A42ED746-37AA-672B-FADC-ADE267EB75C8 (p2, c1, k60).
+1720024182: No will message specified.
+1720024182: Sending CONNACK to auto-A42ED746-37AA-672B-FADC-ADE267EB75C8 (0, 0)
+1720024182: Received SUBSCRIBE from auto-A42ED746-37AA-672B-FADC-ADE267EB75C8
+1720024182: 	/broker/uptime (QoS 0)
+1720024182: auto-A42ED746-37AA-672B-FADC-ADE267EB75C8 0 /broker/uptime
+1720024182: Sending SUBACK to auto-A42ED746-37AA-672B-FADC-ADE267EB75C8
+1720024192: Client auto-A42ED746-37AA-672B-FADC-ADE267EB75C8 closed its connection.
+1720024252: New connection from 127.0.0.1:58504 on port 1883.
+1720024252: New client connected from 127.0.0.1:58504 as auto-03F76738-D3D0-A78A-0107-9EB80C58019A (p2, c1, k60).
+1720024252: No will message specified.
+1720024252: Sending CONNACK to auto-03F76738-D3D0-A78A-0107-9EB80C58019A (0, 0)
+1720024252: Received SUBSCRIBE from auto-03F76738-D3D0-A78A-0107-9EB80C58019A
+1720024252: 	/broker/uptime (QoS 0)
+1720024252: auto-03F76738-D3D0-A78A-0107-9EB80C58019A 0 /broker/uptime
+1720024252: Sending SUBACK to auto-03F76738-D3D0-A78A-0107-9EB80C58019A
+1720024262: Client auto-03F76738-D3D0-A78A-0107-9EB80C58019A closed its connection.
+1720024322: New connection from 127.0.0.1:47120 on port 1883.
+1720024322: New client connected from 127.0.0.1:47120 as auto-90AA0512-77A7-45A7-69F2-68301FEAE958 (p2, c1, k60).
+1720024322: No will message specified.
+1720024322: Sending CONNACK to auto-90AA0512-77A7-45A7-69F2-68301FEAE958 (0, 0)
+1720024322: Received SUBSCRIBE from auto-90AA0512-77A7-45A7-69F2-68301FEAE958
+1720024322: 	/broker/uptime (QoS 0)
+1720024322: auto-90AA0512-77A7-45A7-69F2-68301FEAE958 0 /broker/uptime
+1720024322: Sending SUBACK to auto-90AA0512-77A7-45A7-69F2-68301FEAE958
+1720024332: Client auto-90AA0512-77A7-45A7-69F2-68301FEAE958 closed its connection.
+1720024392: New connection from 127.0.0.1:35008 on port 1883.
+1720024392: New client connected from 127.0.0.1:35008 as auto-C9217F44-124C-5225-D5B0-464744AAC5A8 (p2, c1, k60).
+1720024392: No will message specified.
+1720024392: Sending CONNACK to auto-C9217F44-124C-5225-D5B0-464744AAC5A8 (0, 0)
+1720024392: Received SUBSCRIBE from auto-C9217F44-124C-5225-D5B0-464744AAC5A8
+1720024392: 	/broker/uptime (QoS 0)
+1720024392: auto-C9217F44-124C-5225-D5B0-464744AAC5A8 0 /broker/uptime
+1720024392: Sending SUBACK to auto-C9217F44-124C-5225-D5B0-464744AAC5A8
+1720024402: Client auto-C9217F44-124C-5225-D5B0-464744AAC5A8 closed its connection.
+1720024462: New connection from 127.0.0.1:48966 on port 1883.
+1720024462: New client connected from 127.0.0.1:48966 as auto-6D8835AD-9276-47AF-6C66-EEC6036E4944 (p2, c1, k60).
+1720024462: No will message specified.
+1720024462: Sending CONNACK to auto-6D8835AD-9276-47AF-6C66-EEC6036E4944 (0, 0)
+1720024462: Received SUBSCRIBE from auto-6D8835AD-9276-47AF-6C66-EEC6036E4944
+1720024462: 	/broker/uptime (QoS 0)
+1720024462: auto-6D8835AD-9276-47AF-6C66-EEC6036E4944 0 /broker/uptime
+1720024462: Sending SUBACK to auto-6D8835AD-9276-47AF-6C66-EEC6036E4944
+1720024472: Client auto-6D8835AD-9276-47AF-6C66-EEC6036E4944 closed its connection.
+1720024501: mosquitto version 2.0.18 terminating
+1720024501: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1720024504: mosquitto version 2.0.18 starting
+1720024504: Config loaded from /mosquitto/config/mosquitto.conf.
+1720024504: Opening ipv4 listen socket on port 1883.
+1720024504: Opening ipv6 listen socket on port 1883.
+1720024504: mosquitto version 2.0.18 running
+1720024504: New connection from 172.21.0.3:40587 on port 1883.
+1720024504: Client <unknown> closed its connection.
+1720024564: New connection from 127.0.0.1:58900 on port 1883.
+1720024564: New client connected from 127.0.0.1:58900 as auto-278680DE-26B8-703C-33F2-1FFAFBDBC746 (p2, c1, k60).
+1720024564: No will message specified.
+1720024564: Sending CONNACK to auto-278680DE-26B8-703C-33F2-1FFAFBDBC746 (0, 0)
+1720024564: Received SUBSCRIBE from auto-278680DE-26B8-703C-33F2-1FFAFBDBC746
+1720024564: 	/broker/uptime (QoS 0)
+1720024564: auto-278680DE-26B8-703C-33F2-1FFAFBDBC746 0 /broker/uptime
+1720024564: Sending SUBACK to auto-278680DE-26B8-703C-33F2-1FFAFBDBC746
+1720024574: Client auto-278680DE-26B8-703C-33F2-1FFAFBDBC746 closed its connection.
+1720024634: New connection from 127.0.0.1:46550 on port 1883.
+1720024634: New client connected from 127.0.0.1:46550 as auto-4A7D692F-AD2B-45EA-228C-7F37E1F07551 (p2, c1, k60).
+1720024634: No will message specified.
+1720024634: Sending CONNACK to auto-4A7D692F-AD2B-45EA-228C-7F37E1F07551 (0, 0)
+1720024634: Received SUBSCRIBE from auto-4A7D692F-AD2B-45EA-228C-7F37E1F07551
+1720024634: 	/broker/uptime (QoS 0)
+1720024634: auto-4A7D692F-AD2B-45EA-228C-7F37E1F07551 0 /broker/uptime
+1720024634: Sending SUBACK to auto-4A7D692F-AD2B-45EA-228C-7F37E1F07551
+1720024644: Client auto-4A7D692F-AD2B-45EA-228C-7F37E1F07551 closed its connection.
+1720024704: New connection from 127.0.0.1:49830 on port 1883.
+1720024704: New client connected from 127.0.0.1:49830 as auto-BC4A18E5-2E48-A3C5-C9F5-2BAB31B4BF0F (p2, c1, k60).
+1720024704: No will message specified.
+1720024704: Sending CONNACK to auto-BC4A18E5-2E48-A3C5-C9F5-2BAB31B4BF0F (0, 0)
+1720024704: Received SUBSCRIBE from auto-BC4A18E5-2E48-A3C5-C9F5-2BAB31B4BF0F
+1720024704: 	/broker/uptime (QoS 0)
+1720024704: auto-BC4A18E5-2E48-A3C5-C9F5-2BAB31B4BF0F 0 /broker/uptime
+1720024704: Sending SUBACK to auto-BC4A18E5-2E48-A3C5-C9F5-2BAB31B4BF0F
+1720024714: Client auto-BC4A18E5-2E48-A3C5-C9F5-2BAB31B4BF0F closed its connection.
+1720024774: New connection from 127.0.0.1:53814 on port 1883.
+1720024774: New client connected from 127.0.0.1:53814 as auto-14719EBD-5F34-E5FD-3E9F-773BFD13C9B4 (p2, c1, k60).
+1720024774: No will message specified.
+1720024774: Sending CONNACK to auto-14719EBD-5F34-E5FD-3E9F-773BFD13C9B4 (0, 0)
+1720024774: Received SUBSCRIBE from auto-14719EBD-5F34-E5FD-3E9F-773BFD13C9B4
+1720024774: 	/broker/uptime (QoS 0)
+1720024774: auto-14719EBD-5F34-E5FD-3E9F-773BFD13C9B4 0 /broker/uptime
+1720024774: Sending SUBACK to auto-14719EBD-5F34-E5FD-3E9F-773BFD13C9B4
+1720024784: Client auto-14719EBD-5F34-E5FD-3E9F-773BFD13C9B4 closed its connection.
+1720024844: New connection from 127.0.0.1:57906 on port 1883.
+1720024844: New client connected from 127.0.0.1:57906 as auto-14463FF5-8915-4944-D00A-385A790E26F5 (p2, c1, k60).
+1720024844: No will message specified.
+1720024844: Sending CONNACK to auto-14463FF5-8915-4944-D00A-385A790E26F5 (0, 0)
+1720024844: Received SUBSCRIBE from auto-14463FF5-8915-4944-D00A-385A790E26F5
+1720024844: 	/broker/uptime (QoS 0)
+1720024844: auto-14463FF5-8915-4944-D00A-385A790E26F5 0 /broker/uptime
+1720024844: Sending SUBACK to auto-14463FF5-8915-4944-D00A-385A790E26F5
+1720024854: Client auto-14463FF5-8915-4944-D00A-385A790E26F5 closed its connection.
+1720024884: mosquitto version 2.0.18 terminating
+1720024884: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1720024888: mosquitto version 2.0.18 starting
+1720024888: Config loaded from /mosquitto/config/mosquitto.conf.
+1720024888: Opening ipv4 listen socket on port 1883.
+1720024888: Opening ipv6 listen socket on port 1883.
+1720024888: mosquitto version 2.0.18 running
+1720024888: New connection from 172.21.0.3:53213 on port 1883.
+1720024888: Client <unknown> closed its connection.
+1720024904: mosquitto version 2.0.18 terminating
+1720024904: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1720024914: mosquitto version 2.0.18 starting
+1720024914: Config loaded from /mosquitto/config/mosquitto.conf.
+1720024914: Opening ipv4 listen socket on port 1883.
+1720024914: Opening ipv6 listen socket on port 1883.
+1720024914: mosquitto version 2.0.18 running
+1720024914: New connection from 172.21.0.3:60601 on port 1883.
+1720024914: Client <unknown> closed its connection.
+1720024974: New connection from 127.0.0.1:50820 on port 1883.
+1720024974: New client connected from 127.0.0.1:50820 as auto-996270C0-BC33-2474-7799-479C3DA99FE8 (p2, c1, k60).
+1720024974: No will message specified.
+1720024974: Sending CONNACK to auto-996270C0-BC33-2474-7799-479C3DA99FE8 (0, 0)
+1720024974: Received SUBSCRIBE from auto-996270C0-BC33-2474-7799-479C3DA99FE8
+1720024974: 	/broker/uptime (QoS 0)
+1720024974: auto-996270C0-BC33-2474-7799-479C3DA99FE8 0 /broker/uptime
+1720024974: Sending SUBACK to auto-996270C0-BC33-2474-7799-479C3DA99FE8
+1720024984: Client auto-996270C0-BC33-2474-7799-479C3DA99FE8 closed its connection.
+1720025016: mosquitto version 2.0.18 terminating
+1720025016: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1720025020: mosquitto version 2.0.18 starting
+1720025020: Config loaded from /mosquitto/config/mosquitto.conf.
+1720025020: Opening ipv4 listen socket on port 1883.
+1720025020: Opening ipv6 listen socket on port 1883.
+1720025020: mosquitto version 2.0.18 running
+1720025080: New connection from 127.0.0.1:56264 on port 1883.
+1720025080: New client connected from 127.0.0.1:56264 as auto-DAD2F6B5-9A9D-A6A9-F84B-D2ED22093CA3 (p2, c1, k60).
+1720025080: No will message specified.
+1720025080: Sending CONNACK to auto-DAD2F6B5-9A9D-A6A9-F84B-D2ED22093CA3 (0, 0)
+1720025080: Received SUBSCRIBE from auto-DAD2F6B5-9A9D-A6A9-F84B-D2ED22093CA3
+1720025080: 	/broker/uptime (QoS 0)
+1720025080: auto-DAD2F6B5-9A9D-A6A9-F84B-D2ED22093CA3 0 /broker/uptime
+1720025080: Sending SUBACK to auto-DAD2F6B5-9A9D-A6A9-F84B-D2ED22093CA3
+1720025081: mosquitto version 2.0.18 terminating
+1720025081: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1720025082: mosquitto version 2.0.18 starting
+1720025082: Config loaded from /mosquitto/config/mosquitto.conf.
+1720025082: Opening ipv4 listen socket on port 1883.
+1720025082: Opening ipv6 listen socket on port 1883.
+1720025082: mosquitto version 2.0.18 running
+1720025083: New connection from 172.21.0.3:59955 on port 1883.
+1720025083: Client <unknown> closed its connection.
+1720025106: mosquitto version 2.0.18 terminating
+1720025106: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1720025109: mosquitto version 2.0.18 starting
+1720025109: Config loaded from /mosquitto/config/mosquitto.conf.
+1720025109: Opening ipv4 listen socket on port 1883.
+1720025109: Opening ipv6 listen socket on port 1883.
+1720025109: mosquitto version 2.0.18 running
+1720025109: New connection from 172.21.0.3:49441 on port 1883.
+1720025109: Client <unknown> closed its connection.
+1720025169: New connection from 127.0.0.1:50502 on port 1883.
+1720025169: New client connected from 127.0.0.1:50502 as auto-0FDC4E15-A006-34B0-6E9A-776B9EDF2FA2 (p2, c1, k60).
+1720025169: No will message specified.
+1720025169: Sending CONNACK to auto-0FDC4E15-A006-34B0-6E9A-776B9EDF2FA2 (0, 0)
+1720025169: Received SUBSCRIBE from auto-0FDC4E15-A006-34B0-6E9A-776B9EDF2FA2
+1720025169: 	/broker/uptime (QoS 0)
+1720025169: auto-0FDC4E15-A006-34B0-6E9A-776B9EDF2FA2 0 /broker/uptime
+1720025169: Sending SUBACK to auto-0FDC4E15-A006-34B0-6E9A-776B9EDF2FA2
+1720025179: Client auto-0FDC4E15-A006-34B0-6E9A-776B9EDF2FA2 closed its connection.
+1720025212: mosquitto version 2.0.18 terminating
+1720025212: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1720025214: mosquitto version 2.0.18 starting
+1720025214: Config loaded from /mosquitto/config/mosquitto.conf.
+1720025214: Opening ipv4 listen socket on port 1883.
+1720025214: Opening ipv6 listen socket on port 1883.
+1720025214: mosquitto version 2.0.18 running
+1720025214: New connection from 172.21.0.3:38839 on port 1883.
+1720025214: Client <unknown> closed its connection.
+1720025229: mosquitto version 2.0.18 terminating
+1720025229: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1720025231: mosquitto version 2.0.18 starting
+1720025231: Config loaded from /mosquitto/config/mosquitto.conf.
+1720025231: Opening ipv4 listen socket on port 1883.
+1720025231: Opening ipv6 listen socket on port 1883.
+1720025231: mosquitto version 2.0.18 running
+1720025231: New connection from 172.21.0.3:36501 on port 1883.
+1720025231: Client <unknown> closed its connection.
+1720025291: New connection from 127.0.0.1:53760 on port 1883.
+1720025291: New client connected from 127.0.0.1:53760 as auto-A1E3C328-6C65-ABE2-E62A-6F6B108C7000 (p2, c1, k60).
+1720025291: No will message specified.
+1720025291: Sending CONNACK to auto-A1E3C328-6C65-ABE2-E62A-6F6B108C7000 (0, 0)
+1720025291: Received SUBSCRIBE from auto-A1E3C328-6C65-ABE2-E62A-6F6B108C7000
+1720025291: 	/broker/uptime (QoS 0)
+1720025291: auto-A1E3C328-6C65-ABE2-E62A-6F6B108C7000 0 /broker/uptime
+1720025291: Sending SUBACK to auto-A1E3C328-6C65-ABE2-E62A-6F6B108C7000
+1720025301: Client auto-A1E3C328-6C65-ABE2-E62A-6F6B108C7000 closed its connection.
+1720025328: mosquitto version 2.0.18 terminating
+1720025328: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1720025330: mosquitto version 2.0.18 starting
+1720025330: Config loaded from /mosquitto/config/mosquitto.conf.
+1720025330: Opening ipv4 listen socket on port 1883.
+1720025330: Opening ipv6 listen socket on port 1883.
+1720025330: mosquitto version 2.0.18 running
+1720025331: New connection from 172.21.0.3:41799 on port 1883.
+1720025331: Client <unknown> closed its connection.
+1720025390: New connection from 127.0.0.1:50366 on port 1883.
+1720025390: New client connected from 127.0.0.1:50366 as auto-C538BB35-EC35-718F-0413-C6F65ADF3132 (p2, c1, k60).
+1720025390: No will message specified.
+1720025390: Sending CONNACK to auto-C538BB35-EC35-718F-0413-C6F65ADF3132 (0, 0)
+1720025390: Received SUBSCRIBE from auto-C538BB35-EC35-718F-0413-C6F65ADF3132
+1720025390: 	/broker/uptime (QoS 0)
+1720025390: auto-C538BB35-EC35-718F-0413-C6F65ADF3132 0 /broker/uptime
+1720025390: Sending SUBACK to auto-C538BB35-EC35-718F-0413-C6F65ADF3132
+1720025400: Client auto-C538BB35-EC35-718F-0413-C6F65ADF3132 closed its connection.
+1720025460: New connection from 127.0.0.1:46322 on port 1883.
+1720025460: New client connected from 127.0.0.1:46322 as auto-EAEEE0DC-F383-8D2A-EF02-83C1E0941465 (p2, c1, k60).
+1720025460: No will message specified.
+1720025460: Sending CONNACK to auto-EAEEE0DC-F383-8D2A-EF02-83C1E0941465 (0, 0)
+1720025460: Received SUBSCRIBE from auto-EAEEE0DC-F383-8D2A-EF02-83C1E0941465
+1720025460: 	/broker/uptime (QoS 0)
+1720025460: auto-EAEEE0DC-F383-8D2A-EF02-83C1E0941465 0 /broker/uptime
+1720025460: Sending SUBACK to auto-EAEEE0DC-F383-8D2A-EF02-83C1E0941465
+1720025470: Client auto-EAEEE0DC-F383-8D2A-EF02-83C1E0941465 closed its connection.
+1720025514: mosquitto version 2.0.18 terminating
+1720025514: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1720025516: mosquitto version 2.0.18 starting
+1720025516: Config loaded from /mosquitto/config/mosquitto.conf.
+1720025516: Opening ipv4 listen socket on port 1883.
+1720025516: Opening ipv6 listen socket on port 1883.
+1720025516: mosquitto version 2.0.18 running
+1720025517: New connection from 172.21.0.3:34125 on port 1883.
+1720025517: Client <unknown> closed its connection.
+1720025556: mosquitto version 2.0.18 terminating
+1720025556: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1720025558: mosquitto version 2.0.18 starting
+1720025558: Config loaded from /mosquitto/config/mosquitto.conf.
+1720025558: Opening ipv4 listen socket on port 1883.
+1720025558: Opening ipv6 listen socket on port 1883.
+1720025558: mosquitto version 2.0.18 running
+1720025558: New connection from 172.21.0.3:47735 on port 1883.
+1720025558: Client <unknown> closed its connection.
+1720025618: New connection from 127.0.0.1:38350 on port 1883.
+1720025618: New client connected from 127.0.0.1:38350 as auto-AF56B354-C30C-6065-6668-7602B4B0E865 (p2, c1, k60).
+1720025618: No will message specified.
+1720025618: Sending CONNACK to auto-AF56B354-C30C-6065-6668-7602B4B0E865 (0, 0)
+1720025618: Received SUBSCRIBE from auto-AF56B354-C30C-6065-6668-7602B4B0E865
+1720025618: 	/broker/uptime (QoS 0)
+1720025618: auto-AF56B354-C30C-6065-6668-7602B4B0E865 0 /broker/uptime
+1720025618: Sending SUBACK to auto-AF56B354-C30C-6065-6668-7602B4B0E865
+1720025628: Client auto-AF56B354-C30C-6065-6668-7602B4B0E865 closed its connection.
+1720025688: New connection from 127.0.0.1:59794 on port 1883.
+1720025688: New client connected from 127.0.0.1:59794 as auto-F4CB44C4-B3C4-5F85-FE00-9B5EE043D8EB (p2, c1, k60).
+1720025688: No will message specified.
+1720025688: Sending CONNACK to auto-F4CB44C4-B3C4-5F85-FE00-9B5EE043D8EB (0, 0)
+1720025688: Received SUBSCRIBE from auto-F4CB44C4-B3C4-5F85-FE00-9B5EE043D8EB
+1720025688: 	/broker/uptime (QoS 0)
+1720025688: auto-F4CB44C4-B3C4-5F85-FE00-9B5EE043D8EB 0 /broker/uptime
+1720025688: Sending SUBACK to auto-F4CB44C4-B3C4-5F85-FE00-9B5EE043D8EB
+1720025698: Client auto-F4CB44C4-B3C4-5F85-FE00-9B5EE043D8EB closed its connection.
+1720025750: mosquitto version 2.0.18 terminating
+1720025750: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1720025753: mosquitto version 2.0.18 starting
+1720025753: Config loaded from /mosquitto/config/mosquitto.conf.
+1720025753: Opening ipv4 listen socket on port 1883.
+1720025753: Opening ipv6 listen socket on port 1883.
+1720025753: mosquitto version 2.0.18 running
+1720025753: New connection from 172.21.0.3:47245 on port 1883.
+1720025753: Client <unknown> closed its connection.
+1720025813: New connection from 127.0.0.1:39514 on port 1883.
+1720025813: New client connected from 127.0.0.1:39514 as auto-3727220E-2AE2-4012-593B-7CEB44EAE91A (p2, c1, k60).
+1720025813: No will message specified.
+1720025813: Sending CONNACK to auto-3727220E-2AE2-4012-593B-7CEB44EAE91A (0, 0)
+1720025813: Received SUBSCRIBE from auto-3727220E-2AE2-4012-593B-7CEB44EAE91A
+1720025813: 	/broker/uptime (QoS 0)
+1720025813: auto-3727220E-2AE2-4012-593B-7CEB44EAE91A 0 /broker/uptime
+1720025813: Sending SUBACK to auto-3727220E-2AE2-4012-593B-7CEB44EAE91A
+1720025823: Client auto-3727220E-2AE2-4012-593B-7CEB44EAE91A closed its connection.
+1720025883: New connection from 127.0.0.1:58944 on port 1883.
+1720025883: New client connected from 127.0.0.1:58944 as auto-B564DE6D-834B-0EBC-F67B-01E2258F2B85 (p2, c1, k60).
+1720025883: No will message specified.
+1720025883: Sending CONNACK to auto-B564DE6D-834B-0EBC-F67B-01E2258F2B85 (0, 0)
+1720025883: Received SUBSCRIBE from auto-B564DE6D-834B-0EBC-F67B-01E2258F2B85
+1720025883: 	/broker/uptime (QoS 0)
+1720025883: auto-B564DE6D-834B-0EBC-F67B-01E2258F2B85 0 /broker/uptime
+1720025883: Sending SUBACK to auto-B564DE6D-834B-0EBC-F67B-01E2258F2B85
+1720025886: mosquitto version 2.0.18 terminating
+1720025886: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1720025889: mosquitto version 2.0.18 starting
+1720025889: Config loaded from /mosquitto/config/mosquitto.conf.
+1720025889: Opening ipv4 listen socket on port 1883.
+1720025889: Opening ipv6 listen socket on port 1883.
+1720025889: mosquitto version 2.0.18 running
+1720025890: New connection from 172.21.0.3:56985 on port 1883.
+1720025890: Client <unknown> closed its connection.
+1720025949: New connection from 127.0.0.1:37176 on port 1883.
+1720025949: New client connected from 127.0.0.1:37176 as auto-FAA1F4E4-AB9D-9D83-9A82-A3E240ECE46B (p2, c1, k60).
+1720025949: No will message specified.
+1720025949: Sending CONNACK to auto-FAA1F4E4-AB9D-9D83-9A82-A3E240ECE46B (0, 0)
+1720025949: Received SUBSCRIBE from auto-FAA1F4E4-AB9D-9D83-9A82-A3E240ECE46B
+1720025949: 	/broker/uptime (QoS 0)
+1720025949: auto-FAA1F4E4-AB9D-9D83-9A82-A3E240ECE46B 0 /broker/uptime
+1720025949: Sending SUBACK to auto-FAA1F4E4-AB9D-9D83-9A82-A3E240ECE46B
+1720025959: Client auto-FAA1F4E4-AB9D-9D83-9A82-A3E240ECE46B closed its connection.
+1720025997: mosquitto version 2.0.18 terminating
+1720025997: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1720025999: mosquitto version 2.0.18 starting
+1720025999: Config loaded from /mosquitto/config/mosquitto.conf.
+1720025999: Opening ipv4 listen socket on port 1883.
+1720025999: Opening ipv6 listen socket on port 1883.
+1720025999: mosquitto version 2.0.18 running
+1720026049: mosquitto version 2.0.18 terminating
+1720026049: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1720026051: mosquitto version 2.0.18 starting
+1720026051: Config loaded from /mosquitto/config/mosquitto.conf.
+1720026051: Opening ipv4 listen socket on port 1883.
+1720026051: Opening ipv6 listen socket on port 1883.
+1720026051: mosquitto version 2.0.18 running
+1720026051: New connection from 172.21.0.3:34757 on port 1883.
+1720026051: Client <unknown> closed its connection.
+1720026111: New connection from 127.0.0.1:46852 on port 1883.
+1720026111: New client connected from 127.0.0.1:46852 as auto-D3FCC12F-A71A-210C-C6BD-F0B80718398C (p2, c1, k60).
+1720026111: No will message specified.
+1720026111: Sending CONNACK to auto-D3FCC12F-A71A-210C-C6BD-F0B80718398C (0, 0)
+1720026111: Received SUBSCRIBE from auto-D3FCC12F-A71A-210C-C6BD-F0B80718398C
+1720026111: 	/broker/uptime (QoS 0)
+1720026111: auto-D3FCC12F-A71A-210C-C6BD-F0B80718398C 0 /broker/uptime
+1720026111: Sending SUBACK to auto-D3FCC12F-A71A-210C-C6BD-F0B80718398C
+1720026121: Client auto-D3FCC12F-A71A-210C-C6BD-F0B80718398C closed its connection.
+1720026181: New connection from 127.0.0.1:43738 on port 1883.
+1720026181: New client connected from 127.0.0.1:43738 as auto-F87E54EF-3147-1F29-9B45-994D86D5DB02 (p2, c1, k60).
+1720026181: No will message specified.
+1720026181: Sending CONNACK to auto-F87E54EF-3147-1F29-9B45-994D86D5DB02 (0, 0)
+1720026181: Received SUBSCRIBE from auto-F87E54EF-3147-1F29-9B45-994D86D5DB02
+1720026181: 	/broker/uptime (QoS 0)
+1720026181: auto-F87E54EF-3147-1F29-9B45-994D86D5DB02 0 /broker/uptime
+1720026181: Sending SUBACK to auto-F87E54EF-3147-1F29-9B45-994D86D5DB02
+1720026191: Client auto-F87E54EF-3147-1F29-9B45-994D86D5DB02 closed its connection.
+1720026251: New connection from 127.0.0.1:35930 on port 1883.
+1720026251: New client connected from 127.0.0.1:35930 as auto-2A5C22C8-B627-0E47-6A6E-762D9BC1AFD4 (p2, c1, k60).
+1720026251: No will message specified.
+1720026251: Sending CONNACK to auto-2A5C22C8-B627-0E47-6A6E-762D9BC1AFD4 (0, 0)
+1720026251: Received SUBSCRIBE from auto-2A5C22C8-B627-0E47-6A6E-762D9BC1AFD4
+1720026251: 	/broker/uptime (QoS 0)
+1720026251: auto-2A5C22C8-B627-0E47-6A6E-762D9BC1AFD4 0 /broker/uptime
+1720026251: Sending SUBACK to auto-2A5C22C8-B627-0E47-6A6E-762D9BC1AFD4
+1720026261: Client auto-2A5C22C8-B627-0E47-6A6E-762D9BC1AFD4 closed its connection.
+1720026321: New connection from 127.0.0.1:45120 on port 1883.
+1720026321: New client connected from 127.0.0.1:45120 as auto-9ED81BFE-A146-DB7F-EC74-B4773ACFC7FE (p2, c1, k60).
+1720026321: No will message specified.
+1720026321: Sending CONNACK to auto-9ED81BFE-A146-DB7F-EC74-B4773ACFC7FE (0, 0)
+1720026321: Received SUBSCRIBE from auto-9ED81BFE-A146-DB7F-EC74-B4773ACFC7FE
+1720026321: 	/broker/uptime (QoS 0)
+1720026321: auto-9ED81BFE-A146-DB7F-EC74-B4773ACFC7FE 0 /broker/uptime
+1720026321: Sending SUBACK to auto-9ED81BFE-A146-DB7F-EC74-B4773ACFC7FE
+1720026331: Client auto-9ED81BFE-A146-DB7F-EC74-B4773ACFC7FE closed its connection.
+1720026360: mosquitto version 2.0.18 terminating
+1720026360: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1720026362: mosquitto version 2.0.18 starting
+1720026362: Config loaded from /mosquitto/config/mosquitto.conf.
+1720026362: Opening ipv4 listen socket on port 1883.
+1720026362: Opening ipv6 listen socket on port 1883.
+1720026362: mosquitto version 2.0.18 running
+1720026363: New connection from 172.21.0.3:36977 on port 1883.
+1720026363: New client connected from 172.21.0.3:36977 as internal_temperature (p2, c1, k60).
+1720026363: No will message specified.
+1720026363: Sending CONNACK to internal_temperature (0, 0)
+1720026363: Received SUBSCRIBE from internal_temperature
+1720026363: 	temperature/internal (QoS 0)
+1720026363: internal_temperature 0 temperature/internal
+1720026363: Sending SUBACK to internal_temperature
+1720026363: Received SUBSCRIBE from internal_temperature
+1720026363: 	greetings/face_removed (QoS 0)
+1720026363: internal_temperature 0 greetings/face_removed
+1720026363: Sending SUBACK to internal_temperature
+1720026366: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026366: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026369: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026369: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026372: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026372: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026375: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026375: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026378: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026378: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026381: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026381: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026384: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026384: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026387: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026387: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026390: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026390: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026390: Client internal_temperature closed its connection.
+1720026395: mosquitto version 2.0.18 terminating
+1720026395: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1720026611: mosquitto version 2.0.18 starting
+1720026611: Config loaded from /mosquitto/config/mosquitto.conf.
+1720026611: Opening ipv4 listen socket on port 1883.
+1720026611: Opening ipv6 listen socket on port 1883.
+1720026611: mosquitto version 2.0.18 running
+1720026612: New connection from 172.21.0.3:41183 on port 1883.
+1720026612: New client connected from 172.21.0.3:41183 as internal_temperature (p2, c1, k60).
+1720026612: No will message specified.
+1720026612: Sending CONNACK to internal_temperature (0, 0)
+1720026612: Received SUBSCRIBE from internal_temperature
+1720026612: 	temperature/internal (QoS 0)
+1720026612: internal_temperature 0 temperature/internal
+1720026612: Sending SUBACK to internal_temperature
+1720026612: Received SUBSCRIBE from internal_temperature
+1720026612: 	greetings/face_removed (QoS 0)
+1720026612: internal_temperature 0 greetings/face_removed
+1720026612: Sending SUBACK to internal_temperature
+1720026615: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026615: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026618: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026618: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026621: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026621: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026624: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026624: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026627: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026627: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026630: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026630: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026633: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026633: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026633: Client internal_temperature closed its connection.
+1720026633: mosquitto version 2.0.18 terminating
+1720026633: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1720026669: mosquitto version 2.0.18 starting
+1720026669: Config loaded from /mosquitto/config/mosquitto.conf.
+1720026669: Opening ipv4 listen socket on port 1883.
+1720026669: Opening ipv6 listen socket on port 1883.
+1720026669: mosquitto version 2.0.18 running
+1720026670: New connection from 172.21.0.3:52057 on port 1883.
+1720026670: New client connected from 172.21.0.3:52057 as internal_temperature (p2, c1, k60).
+1720026670: No will message specified.
+1720026670: Sending CONNACK to internal_temperature (0, 0)
+1720026670: Received SUBSCRIBE from internal_temperature
+1720026670: 	temperature/internal (QoS 0)
+1720026670: internal_temperature 0 temperature/internal
+1720026670: Sending SUBACK to internal_temperature
+1720026670: Received SUBSCRIBE from internal_temperature
+1720026670: 	greetings/face_removed (QoS 0)
+1720026670: internal_temperature 0 greetings/face_removed
+1720026670: Sending SUBACK to internal_temperature
+1720026673: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026673: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026676: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026676: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026679: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026679: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026682: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026682: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026685: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026685: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026688: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026688: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720026688: Client internal_temperature closed its connection.
+1720026689: mosquitto version 2.0.18 terminating
+1720026689: Saving in-memory database to /mosquitto/data//mosquitto.db.

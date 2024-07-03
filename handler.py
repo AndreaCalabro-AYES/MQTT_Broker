@@ -8,8 +8,7 @@ import json
 # MQTT Config
 MQTT_BROKER_HOST = os.getenv(key="MQTT_BROKER_HOST", default="mqtt_broker")
 MQTT_BROKER_PORT = int(os.getenv(key="MQTT_BROKER_PORT", default=1883))
-MQTT_TOPICS = ["app_1",
-               "app_2",
+MQTT_TOPICS = ["temperature/internal",
                "general",
                "greetings/face_added",
                "greetings/face_removed"]
@@ -92,21 +91,21 @@ while True:
     if (count % 5) == 0:
         msg_body = json.dumps({"names": ["Drake"]})
         mqtt_client.publish(
+            topic = MQTT_TOPICS[2],
+            payload= msg_body,
+        )
+        print(f"Published {msg_body}, to {MQTT_TOPICS[2]}", flush=True)
+    
+    if (count % 12) == 0:
+        msg_body = json.dumps({"names": ["Lorellina del mio cuole"]})
+        mqtt_client.publish(
             topic = MQTT_TOPICS[3],
             payload= msg_body,
         )
         print(f"Published {msg_body}, to {MQTT_TOPICS[3]}", flush=True)
     
-    if (count % 12) == 0:
-        msg_body = json.dumps({"names": ["Lorellina del mio cuole"]})
-        mqtt_client.publish(
-            topic = MQTT_TOPICS[4],
-            payload= msg_body,
-        )
-        print(f"Published {msg_body}, to {MQTT_TOPICS[4]}", flush=True)
-    
     count += 1
-    time.sleep(5)
+    time.sleep(3)
     
     
 
