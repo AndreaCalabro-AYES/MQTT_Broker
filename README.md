@@ -17,7 +17,7 @@ As the scope of this application is communication, a good approach is to have a 
 There are some default networks, that you can find 
 - [bridge](https://docs.docker.com/network/drivers/bridge/), a software bridge that allows containers connected to it to communicate
 - [host](https://docs.docker.com/network/drivers/host/), used when we want the container to share the host's networking namespace 
-- none, where we connect containers that shall be isolated the outside
+- none, where we connect containers that shall be isolated from the outside
 
 On top of that, users can create their own network. 
 In our case, we will build our custom bridge network.
@@ -27,6 +27,7 @@ Why not use the default's one? Here the [full answer](https://docs.docker.com/ne
 * Ease of connection, as the containers on a custom bridge network can resolve (find) each other by name/alias, and not IP address
 
 **CREATE NETWORK**
+
 You will need to create your own docker bridge network! Just type the following command in your terminal
 ```
 docker network create -d bridge mqtt_network
@@ -36,6 +37,7 @@ The expected name in the containers is this, so feel free to play with it.
 ## The MQTT Broker and Handler
 
 **CLONE REPOSITORY**
+
 As always , go into the folder where you want to create the project, open the terminal, and type the following command
 ```
 git clone https://github.com/AndreaCalabro-AYES/MQTT_Broker.git
