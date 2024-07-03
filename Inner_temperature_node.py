@@ -24,3 +24,5 @@ for temp in inner_temp_list:
         topic= "temperature/internal",
         message= temp
     )
+    
+    print(inner_temp_client.on_message['topic'])

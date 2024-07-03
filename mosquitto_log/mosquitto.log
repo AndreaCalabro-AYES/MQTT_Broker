@@ -641,3 +641,157 @@
 1720026688: Client internal_temperature closed its connection.
 1720026689: mosquitto version 2.0.18 terminating
 1720026689: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1720040240: mosquitto version 2.0.18 starting
+1720040240: Config loaded from /mosquitto/config/mosquitto.conf.
+1720040240: Opening ipv4 listen socket on port 1883.
+1720040240: Opening ipv6 listen socket on port 1883.
+1720040240: mosquitto version 2.0.18 running
+1720040241: New connection from 172.21.0.3:37819 on port 1883.
+1720040241: New client connected from 172.21.0.3:37819 as internal_temperature (p2, c1, k60).
+1720040241: No will message specified.
+1720040241: Sending CONNACK to internal_temperature (0, 0)
+1720040241: Received SUBSCRIBE from internal_temperature
+1720040241: 	temperature/internal (QoS 0)
+1720040241: internal_temperature 0 temperature/internal
+1720040241: Sending SUBACK to internal_temperature
+1720040241: Received SUBSCRIBE from internal_temperature
+1720040241: 	greetings/face_removed (QoS 0)
+1720040241: internal_temperature 0 greetings/face_removed
+1720040241: Sending SUBACK to internal_temperature
+1720040244: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040244: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040247: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040247: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040250: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040250: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040253: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040253: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040256: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040256: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040259: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040259: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040260: Client internal_temperature closed its connection.
+1720040260: mosquitto version 2.0.18 terminating
+1720040260: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1720040297: mosquitto version 2.0.18 starting
+1720040297: Config loaded from /mosquitto/config/mosquitto.conf.
+1720040297: Opening ipv4 listen socket on port 1883.
+1720040297: Opening ipv6 listen socket on port 1883.
+1720040297: mosquitto version 2.0.18 running
+1720040297: New connection from 172.21.0.3:33217 on port 1883.
+1720040297: New client connected from 172.21.0.3:33217 as internal_temperature (p2, c1, k60).
+1720040297: No will message specified.
+1720040297: Sending CONNACK to internal_temperature (0, 0)
+1720040297: Received SUBSCRIBE from internal_temperature
+1720040297: 	temperature/internal (QoS 0)
+1720040297: internal_temperature 0 temperature/internal
+1720040297: Sending SUBACK to internal_temperature
+1720040297: Received SUBSCRIBE from internal_temperature
+1720040297: 	greetings/face_removed (QoS 0)
+1720040297: internal_temperature 0 greetings/face_removed
+1720040297: Sending SUBACK to internal_temperature
+1720040300: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040300: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040303: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040303: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040306: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040306: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040309: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040309: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040312: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040312: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040315: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040315: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040316: Client internal_temperature closed its connection.
+1720040316: mosquitto version 2.0.18 terminating
+1720040316: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1720040343: mosquitto version 2.0.18 starting
+1720040343: Config loaded from /mosquitto/config/mosquitto.conf.
+1720040343: Opening ipv4 listen socket on port 1883.
+1720040343: Opening ipv6 listen socket on port 1883.
+1720040343: mosquitto version 2.0.18 running
+1720040343: New connection from 172.21.0.3:49409 on port 1883.
+1720040343: New client connected from 172.21.0.3:49409 as internal_temperature (p2, c1, k60).
+1720040343: No will message specified.
+1720040343: Sending CONNACK to internal_temperature (0, 0)
+1720040343: Received SUBSCRIBE from internal_temperature
+1720040343: 	temperature/internal (QoS 0)
+1720040343: internal_temperature 0 temperature/internal
+1720040343: Sending SUBACK to internal_temperature
+1720040343: Received SUBSCRIBE from internal_temperature
+1720040343: 	greetings/face_removed (QoS 0)
+1720040343: internal_temperature 0 greetings/face_removed
+1720040343: Sending SUBACK to internal_temperature
+1720040346: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040346: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040349: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040349: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040352: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040352: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040355: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040355: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040358: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040358: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040361: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040361: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040362: Client internal_temperature closed its connection.
+1720040363: mosquitto version 2.0.18 terminating
+1720040363: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1720040439: mosquitto version 2.0.18 starting
+1720040439: Config loaded from /mosquitto/config/mosquitto.conf.
+1720040439: Opening ipv4 listen socket on port 1883.
+1720040439: Opening ipv6 listen socket on port 1883.
+1720040439: mosquitto version 2.0.18 running
+1720040440: New connection from 172.21.0.3:35367 on port 1883.
+1720040440: New client connected from 172.21.0.3:35367 as internal_temperature (p2, c1, k60).
+1720040440: No will message specified.
+1720040440: Sending CONNACK to internal_temperature (0, 0)
+1720040440: Received SUBSCRIBE from internal_temperature
+1720040440: 	temperature/internal (QoS 0)
+1720040440: internal_temperature 0 temperature/internal
+1720040440: Sending SUBACK to internal_temperature
+1720040440: Received SUBSCRIBE from internal_temperature
+1720040440: 	greetings/face_removed (QoS 0)
+1720040440: internal_temperature 0 greetings/face_removed
+1720040440: Sending SUBACK to internal_temperature
+1720040443: Received PUBLISH from internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040443: Sending PUBLISH to internal_temperature (d0, q0, r0, m0, 'temperature/internal', ... (4 bytes))
+1720040443: Client internal_temperature closed its connection.
+1720040499: New connection from 127.0.0.1:40088 on port 1883.
+1720040499: New client connected from 127.0.0.1:40088 as auto-9BFC0584-B1A1-E197-1B92-83ECF3EE8A1E (p2, c1, k60).
+1720040499: No will message specified.
+1720040499: Sending CONNACK to auto-9BFC0584-B1A1-E197-1B92-83ECF3EE8A1E (0, 0)
+1720040499: Received SUBSCRIBE from auto-9BFC0584-B1A1-E197-1B92-83ECF3EE8A1E
+1720040499: 	/broker/uptime (QoS 0)
+1720040499: auto-9BFC0584-B1A1-E197-1B92-83ECF3EE8A1E 0 /broker/uptime
+1720040499: Sending SUBACK to auto-9BFC0584-B1A1-E197-1B92-83ECF3EE8A1E
+1720040509: Client auto-9BFC0584-B1A1-E197-1B92-83ECF3EE8A1E closed its connection.
+1720040569: New connection from 127.0.0.1:56022 on port 1883.
+1720040569: New client connected from 127.0.0.1:56022 as auto-19F2C381-411C-4C4B-56DB-BCC3CF8B5ED5 (p2, c1, k60).
+1720040569: No will message specified.
+1720040569: Sending CONNACK to auto-19F2C381-411C-4C4B-56DB-BCC3CF8B5ED5 (0, 0)
+1720040569: Received SUBSCRIBE from auto-19F2C381-411C-4C4B-56DB-BCC3CF8B5ED5
+1720040569: 	/broker/uptime (QoS 0)
+1720040569: auto-19F2C381-411C-4C4B-56DB-BCC3CF8B5ED5 0 /broker/uptime
+1720040569: Sending SUBACK to auto-19F2C381-411C-4C4B-56DB-BCC3CF8B5ED5
+1720040579: Client auto-19F2C381-411C-4C4B-56DB-BCC3CF8B5ED5 closed its connection.
+1720040639: New connection from 127.0.0.1:38722 on port 1883.
+1720040639: New client connected from 127.0.0.1:38722 as auto-E04B97DB-0F3C-B545-869F-6BB681388DFE (p2, c1, k60).
+1720040639: No will message specified.
+1720040639: Sending CONNACK to auto-E04B97DB-0F3C-B545-869F-6BB681388DFE (0, 0)
+1720040639: Received SUBSCRIBE from auto-E04B97DB-0F3C-B545-869F-6BB681388DFE
+1720040639: 	/broker/uptime (QoS 0)
+1720040639: auto-E04B97DB-0F3C-B545-869F-6BB681388DFE 0 /broker/uptime
+1720040639: Sending SUBACK to auto-E04B97DB-0F3C-B545-869F-6BB681388DFE
+1720040649: Client auto-E04B97DB-0F3C-B545-869F-6BB681388DFE closed its connection.
+1720040709: New connection from 127.0.0.1:60674 on port 1883.
+1720040709: New client connected from 127.0.0.1:60674 as auto-E5BE05A3-6F46-1F0D-1E4A-1DC1769492AE (p2, c1, k60).
+1720040709: No will message specified.
+1720040709: Sending CONNACK to auto-E5BE05A3-6F46-1F0D-1E4A-1DC1769492AE (0, 0)
+1720040709: Received SUBSCRIBE from auto-E5BE05A3-6F46-1F0D-1E4A-1DC1769492AE
+1720040709: 	/broker/uptime (QoS 0)
+1720040709: auto-E5BE05A3-6F46-1F0D-1E4A-1DC1769492AE 0 /broker/uptime
+1720040709: Sending SUBACK to auto-E5BE05A3-6F46-1F0D-1E4A-1DC1769492AE
+1720040719: Client auto-E5BE05A3-6F46-1F0D-1E4A-1DC1769492AE closed its connection.
+1720040729: mosquitto version 2.0.18 terminating
+1720040729: Saving in-memory database to /mosquitto/data//mosquitto.db.

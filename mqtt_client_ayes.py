@@ -18,9 +18,13 @@ class AyesMqttClient:
     """
     This class is intended to give a quick way to users to define a MQTT node for their application.
     The default settings can be overwritten at 
+    
     """
+    
+    def basic_callback(client, userdata, msg):
+        print(f"This is the basic callback function, so the node received the message {msg.payload.decode()} on topic {msg.topic}\n Please update this function as you want to perform the needed action.")
 
-    def __init__(self, broker= "mqtt_broker", port= 1883, topics_list= None, client_id= "test"):
+    def __init__(self, broker= "mqtt_broker", port= 1883, topics_list= None, client_id= "test", on_message= basic_callback):
 
         self.broker = broker
         self.port = port
@@ -30,6 +34,7 @@ class AyesMqttClient:
         self.client_id = client_id
         if self.client_id == "test":
             print("The node's client id is the default one", flush=True)
+        self.on_message= on_message
         
         # Initialize the MQTT client 
         self.mqtt_client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2, client_id=self.client_id)
@@ -54,9 +59,6 @@ class AyesMqttClient:
             print(f"Broker rejected you subscription: {reason_code_list[0]}", flush=True)
         else:
             print(f"Broker granted the following QoS: {reason_code_list[0].value}", flush=True)
-
-    def on_message(self, client, userdata, msg):
-        return msg.topic, msg.payload.decode()
 
     def on_disconnect(self, client, userdata, rc):
         print("Disconnected with result code: %s", rc)
