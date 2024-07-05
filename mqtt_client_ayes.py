@@ -91,10 +91,10 @@ class AyesMqttClient:
         self.mqtt_client.loop_start()
 
 
-    def publish_message(self, topic, message):
-        result = self.mqtt_client.publish(topic, message)
+    def publish_message(self, topic, payload):
+        result = self.mqtt_client.publish(topic, payload)
         status = result[0]
         if status == 0:
-            print(f"Send `{message}` to topic `{topic}`", flush=True)
+            print(f"Send `{payload}` to topic `{topic}`", flush=True)
         else:
             print(f"Failed to send message to topic {topic}", flush=True)
