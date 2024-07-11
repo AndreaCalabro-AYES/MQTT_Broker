@@ -71,7 +71,7 @@ A quite important setting is the CLIENT_ID, which will identify the node in the 
 
 ## Future development
 In the future we will have the handler acting almost as a state machine logic, based on the application results, and then 
-1. A fake node script, where you will be able to set perform the necessary actions (as explained above)
-2. A custom AYES mqtt library, where you will retrieve all the functions that are needed to develop a proper MQTT Client
+1. A fake node script, where you will be able to set perform the necessary actions (as explained above) --> not hard
+2. A custom AYES mqtt library, where you will retrieve all the functions that are needed to develop a proper MQTT Client --> done, and even found how to use it in other containers! To be worked from here
 
 
