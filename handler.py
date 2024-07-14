@@ -24,6 +24,8 @@ mqtt_handler_client = AyesMqttClient(
 
 mqtt_handler_client.connect()
 
+mqtt_handler_client.on_message 
+
 while True:
     
     msg_body = json.dumps({"temperature": 22})

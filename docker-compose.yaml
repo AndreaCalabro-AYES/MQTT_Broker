@@ -1,7 +1,6 @@
 version: '3.8'
 
 services:
-
   mqtt_broker:
     image: eclipse-mosquitto:2.0
     container_name: mqtt_broker
@@ -11,14 +10,8 @@ services:
       - ./mosquitto_log:/mosquitto/log
       - ./mosquitto_data:/mosquitto/data
       - ./mosquitto.conf:/mosquitto/config/mosquitto.conf
-    networks:
-      - mqtt_network
+    network_mode: host  # Use host network
     restart: unless-stopped
-    # In Docker, localhost refers to the contaner itself. "-h localhost" is in this case trying to connect to the MQTT broker
-    # running inside this same container. This healthcheck is then running inside the mqtt_broker container, and we are
-    # trying to subscribe to topics from a mqtt client to the broker. The topic is "SYS/broker/uptime" and provedis the uptime
-    # of the broker. We do it each 60s (interval), and the command has 10s (timeout) to complete, otherwise it will be seen as
-    # a failure. We define a number of retries that is 3.
     healthcheck:
       test: ["CMD", "mosquitto_sub", "-h", "localhost", "-t", "$SYS/broker/uptime"]
       interval: 60s
@@ -35,17 +28,11 @@ services:
     depends_on:
       - mqtt_broker
     environment:
-      - MQTT_BROKER_HOST=mqtt_broker
+      - MQTT_BROKER_HOST=localhost  # Use localhost since both are on the host network
       - MQTT_BROKER_PORT=1883
-    networks:
-      - mqtt_network
+    network_mode: host  # Use host network
     working_dir: /Handler
-    # command: python3 Inner_temperature_node.py
     command: python3 handler.py
-
-networks:
-  mqtt_network:
-    external: true
 
 volumes:
   mosquitto_log:
