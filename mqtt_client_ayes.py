@@ -15,11 +15,14 @@ MAX_RECONNECT_COUNT = 12
 MAX_RECONNECT_DELAY = 60
 
 class AyesMqttClient:
+    
     """
     This class is intended to give a quick way to users to define a MQTT node for their application.
     The default settings can be overwritten at 
     
     """
+    # Add setter and getter
+    # Make this with the private attributes 
     
     def basic_callback(client, userdata, msg):
         print(f"This is the basic callback function, so the node received the message {msg.payload.decode()} on topic {msg.topic}\n Please update this function as you want to perform the needed action.")
