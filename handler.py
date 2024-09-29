@@ -13,7 +13,8 @@ MQTT_BROKER_PORT = int(os.getenv(key="MQTT_BROKER_PORT", default=1883))
 MQTT_TOPICS = ["temperature/internal",
                "general",
                "greetings/face_added",
-               "greetings/face_removed"]
+               "greetings/face_removed",
+               "sentence/single_sentence"]
 
 
 mqtt_handler_client = AyesMqttClient(
@@ -27,39 +28,48 @@ mqtt_handler_client.connect()
 
 mqtt_handler_client.on_message 
 
+
+
+# Get the joke from the SentenceAPI
+joke_data = SentenceAPI.import_dad_joke()
+
+decoded_joke = json.loads(joke_data)
+
+joke = decoded_joke[0]["joke"]
+
+
 while True:
     
-
-    # print("\nDad Joke\n", flush=True)
-    # SentenceAPI.import_dad_joke()
-    # print("\n", flush=True)
-    # time.sleep(5)
-    # print("\nFact\n", flush=True)
-    # SentenceAPI.import_fact()
-    # print("\n", flush=True)
-    # time.sleep(5)
-    # print("\nJoke\n", flush=True)
-    # SentenceAPI.import_joke()
-    # print("\n", flush=True)
-    # time.sleep(5)
-    # print("\nquote\n", flush=True)
-    # SentenceAPI.import_quote()
-    # print("\n", flush=True)
-    # time.sleep(5)
-    # print("\nriddle\n", flush=True)
-    # SentenceAPI.import_riddle()
-    # print("\n", flush=True)
-    time.sleep(5)
-    # print("\ntrivia\n", flush=True)
-    # SentenceAPI.import_trivia()
-    # print("\n", flush=True)
-    SentenceAPI.get_historical_event_for_today()
-    pass
-    # msg_body = json.dumps({"names": ["Margot"]})
+    time.sleep(15)
     
-    # time.sleep(30)
+    msg_body = json.dumps({"temperature": 22})
+    
+    
+    mqtt_handler_client.publish_message(
+        topic= "temperature/internal",
+        payload= msg_body
+    )
+    
+    # time.sleep(15)
+
+    # msg_body = json.dumps({"names": "Lorella"})
     
     # mqtt_handler_client.publish_message(
     #     topic= "greetings/face_added",
     #     payload= msg_body
     # )
+    
+    # time.sleep(15)
+    time.sleep(10)
+    
+    # msg_body = json.dumps(joke)
+    msg_body = json.dumps({"sentence": joke})
+    mqtt_handler_client.publish_message(
+        topic= "sentence/single_sentence",
+        payload= msg_body
+    )
+    
+    time.sleep(300)
+    
+
+    pass
