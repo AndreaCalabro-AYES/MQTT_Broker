@@ -16,6 +16,8 @@ services:
       timeout: 10s
       retries: 3
 
+    restart: always
+
 volumes:
   mosquitto_log:
   mosquitto_data:
